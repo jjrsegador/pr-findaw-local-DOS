@@ -1,0 +1,62 @@
+#contacto {
+    position: fixed;
+    top: 515px;
+    left: 30px;
+    width: 94.5%;
+    border: 2px rgba(17, 63, 38, 0.932) solid;
+    padding: 0em 0em 0em 1em;
+    background-color: #bedad0;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+#situar {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#detalle {
+    font-size: 18px;
+}
+
+.situarcampo {
+    font-size: 12px;
+}
+
+.campos {
+    margin-top: 3em;
+    font-size: 18px;
+}
+
+#nom {
+    margin-left: 6.7em;
+}
+
+#ape {
+    margin-left: 5.80em;
+}
+
+#org {
+    margin-left: 3.90em;
+}
+
+#mail {
+    margin-left: 8em;
+}
+
+#fecha {
+    margin-left: 2.55em;
+}
+
+#tel {
+    margin-left: 5.58em;
+}
+
+#inf {
+    margin-left: 0em;
+}
+
+input {
+    font-style: italic;
+}

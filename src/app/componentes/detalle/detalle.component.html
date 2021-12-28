@@ -1,0 +1,19 @@
+<div id="contacto" *ngIf="contacto">
+
+    <div id="situar">
+
+        <span id="detalle"><b>Detalle cliente</b></span> <br>
+
+        <div class="situarcampo">
+            <span id="nom">Nombre:</span> <a class="campos"> {{contacto.nombre}} </a> <br>
+            <span id="ape">Apellidos:</span><a class="campos"> {{contacto.apellidos}} </a> <br>
+            <span id="org">Organización:</span> <a class="campos"> {{contacto.organizacion}} </a> <br>
+            <span id="mail">Mail:</span> <a class="campos"> {{contacto.mail}} </a> <br>
+            <span id="fecha">Fecha Contacto:</span> <a class="campos"> {{contacto.fechaCreacion.seconds * 1000 | date:'dd-MM-yyyy'}} </a> <br>
+            <span id="tel">Teléfono:</span> <a class="campos"> {{contacto.telefono}} </a> <br>
+            <span id="inf">Información adicional:</span> <a class="campos"> {{contacto.infoadic}} </a>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,36 @@
+<div id="tabla">
+
+    <table>
+
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Organización</th>
+            <th>Mail</th>
+            <th>Teléfono</th>
+            <th>Fecha</th>
+            <th>Información adicional</th>
+        </tr>
+
+        <tr *ngFor="let indice of coleccionContactos" (click)="contactoDetalle(indice)">
+
+            <td>{{indice.nombre}}</td>
+            <td>{{indice.apellidos}}</td>
+            <td>{{indice.organizacion}}</td>
+            <td>{{indice.mail}}</td>
+            <td>{{indice.telefono}}</td>
+            <td>{{indice.fechaCreacion.seconds * 1000 | date:'dd-MM-yyyy'}}</td>
+            <td>{{indice.infoadic}}</td>
+
+        </tr>
+
+    </table>
+
+</div>
+
+
+<div>
+
+    <detalle [contacto]="contactoSeleccionado"></detalle>
+
+</div>
