@@ -11,8 +11,8 @@ export const environment = {
     projectId: "vintagecivic-40d57",
     storageBucket: "vintagecivic-40d57.appspot.com",
     messagingSenderId: "1009453126003",
-    appId: "1:1009453126003:web:7fc230f0adf254c3a9f506",
-    measurementId: "G-71YC04QXJS"
+    appId: "1:1009453126003:web:3b30abd2e5a6db21a9f506",
+    measurementId: "G-NYSWRJC6PG"
   }
 };
 
