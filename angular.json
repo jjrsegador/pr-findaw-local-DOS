@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "pr-findaw-local-DOS:build:production",
+            "firebaseProject": "vintagecivic-40d57",
+            "firebaseHostingSite": "vintagecivic-40d57"
+          }
         }
       }
     }

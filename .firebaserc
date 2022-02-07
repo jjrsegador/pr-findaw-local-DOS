@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "vintagecivic-40d57": {
+      "hosting": {
+        "pr-findaw-local-DOS": [
+          "vintagecivic-40d57"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "vintagecivic-40d57"
+  }
+}
